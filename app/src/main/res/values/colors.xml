@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listview_item_color">#FFDDDDDD</color>
+    <color name="listview_border_color">#FF000000</color>
+    <color name="tv_title_font_color">#FF000000</color>
+    <color name="tv_author_font_color">#FF000000</color>
+</resources>

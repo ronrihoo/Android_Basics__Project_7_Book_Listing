@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_container_left_padding">8dp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="header_bottom_margin">1dp</dimen>
+    <dimen name="header_bottom_padding">4dp</dimen>
+    <dimen name="body_bottom_padding">2dp</dimen>
+    <dimen name="body_top_padding">2dp</dimen>
+    <dimen name="tv_title_bottom_padding">4dp</dimen>
+    <dimen name="tv_title_right_padding">8dp</dimen>
+    <dimen name="tv_title_top_padding">8dp</dimen>
+    <dimen name="tv_author_top_padding">4dp</dimen>
+    <dimen name="tv_author_right_padding">8dp</dimen>
+    <dimen name="tv_author_bottom_padding">8dp</dimen>
+</resources>

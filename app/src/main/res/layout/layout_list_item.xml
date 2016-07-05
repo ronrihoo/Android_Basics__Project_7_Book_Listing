@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/listview_item_color"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:id="@+id/LL_List_Item">
+
+    <LinearLayout
+        android:id="@+id/LL_Text_Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/text_container_left_padding">
+
+        <TextView
+            android:id="@+id/TV_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/tv_title_font_color"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/tv_title_top_padding"
+            android:paddingBottom="@dimen/tv_title_bottom_padding"
+            android:paddingRight="@dimen/tv_title_right_padding" />
+
+        <TextView
+            android:id="@+id/TV_Author"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/tv_author_font_color"
+            android:paddingBottom="@dimen/tv_author_bottom_padding"
+            android:paddingTop="@dimen/tv_author_top_padding"
+            android:paddingRight="@dimen/tv_author_right_padding" />
+
+    </LinearLayout>
+</LinearLayout>
